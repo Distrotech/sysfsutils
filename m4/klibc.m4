@@ -13,7 +13,7 @@
 ## Please note that the actual code of the KLIBC Library is partly covered
 ## by the GNU Library General Public License, and party copyrighted by the
 ## Regents of The University of California, and the rest is covered by a
-## MIT style license.
+## MIT style license. 
 
 # Authors:
 #   Martin Schlemmer <azarah@nosferatu.za.org>, 2005.
@@ -91,4 +91,3 @@ fi
 
 AC_SUBST(KLIBC)
 ])# AC_CHECK_KLIBC
-

@@ -4,6 +4,8 @@ AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([config.h.in])
 AM_CONFIG_HEADER([config.h])
 
+AC_CONFIG_MACRO_DIR([m4])
+
 # Checks for KLIBC support (should be before AC_PROG_LIBTOOL and AC_PROG_CC)
 AC_CHECK_KLIBC
 
