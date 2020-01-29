@@ -42,6 +42,10 @@ library and utilities.
 For a successful install, run "make install" as super-user. "make uninstall"
 will clean up all installed files.
 
+If needed, to regenerate the configure script and the Makefiles, you may
+need to run automake, autoconf, and autoheader. If the version of automake
+has changed significantly, you may have re-run aclocal to recreate aclocal.m4.
+
 
 3. Licenses
 -----------
